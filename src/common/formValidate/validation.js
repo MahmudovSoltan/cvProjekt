@@ -7,10 +7,10 @@ export const initialValidation = Yup.object({
     .max(15, "Must be 15 characters or less")
     .required("Required"),
     email: Yup.string().email("Invalid email address").required("Required"),
-    phone:Yup.string().matches(phoneRegex, "Düzgün Azərbaycan nömrəsi daxil edin")
-    .required("Telefon nömrəsi mütləqdir"),
+    phone:Yup.string().matches(phoneRegex, "Please enter a valid Azerbaijani number.")
+    .required("Phone number is required"),
     imgUrl:Yup.string().required("Required")
-    .required("Şəkil URL-i mütləqdir"),
+    .required("Image URL is required."),
     experience:Yup.string().required("Required")
 
 });
