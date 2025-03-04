@@ -1,0 +1,64 @@
+.main_right_container {
+  position: relative;
+  width: 33.333333%;
+  padding: 1rem;
+  background-color: rgb(239 246 255);
+  border-radius: 0.375rem;
+  height: auto; /* Changed from 65vh to auto */
+  min-height: 500px; /* Set a minimum height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden; /* Prevent content overflow */
+  box-shadow: none; /* Remove box shadow for PDF */
+}
+
+.main_right_right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Ensure alignment */
+}
+
+.main_right_right_title {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: rgb(55 65 81);
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.main_right_right p {
+  color: rgb(75 85 99);
+}
+
+h3 {
+  color: rgb(55 65 81);
+  font-weight: 500;
+  margin-top: 1rem;
+  margin-bottom: 10px;
+}
+
+img {
+  width: 7rem;
+  height: 7rem;
+  object-fit: contain; /* Changed from cover to contain */
+  border-radius: 0.75rem;
+}
+
+.downolad_btn {
+  color: rgb(255 255 255);
+  padding: 0.5rem 1rem;
+  background-color: rgb(59 130 246);
+  border-radius: 0.25rem;
+  position: relative; /* Changed from absolute to relative */
+  top: auto; /* Remove top positioning */
+  margin-top: 1rem; /* Add margin for spacing */
+  border: none;
+  cursor: pointer;
+  box-shadow: none; /* Remove box shadow for PDF */
+}
+
+.downolad_btn:hover {
+  background-color: rgb(37 99 235);
+}

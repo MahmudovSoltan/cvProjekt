@@ -1,0 +1,67 @@
+.cvform_container{
+    --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1);
+    --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    background-color: rgb(249 250 251 );
+    border-radius: .375rem;
+    min-height: 72vh;
+    padding: 1rem;
+    width: 58.333333%;
+}
+.cv_title{
+    color: rgb(55 65 81 );
+}
+input{
+    padding: .5rem;
+    border-radius: .25rem;
+    width: 100%;
+    border: 1px solid;
+    border-color: #e5e7eb;
+    --tw-space-y-reverse: 0;
+    margin-top: calc(1.75rem* calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(1.75rem* var(--tw-space-y-reverse));
+}
+textarea{
+    padding: .5rem;
+    border-width: 1px;  
+    border-radius: .25rem;
+    width: 100%;
+    height: 6rem;
+    border-color: #e5e7eb;
+    --tw-space-y-reverse: 0;
+    margin-top: calc(1.75rem* calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(1.75rem* var(--tw-space-y-reverse));
+    resize: none;
+}
+.submit_btn{
+    width: 82px;
+    height: 40px;
+    --tw-space-y-reverse: 0;
+    margin-top: calc(2.5rem* calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(1.75rem* var(--tw-space-y-reverse));
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: rgb(34 197 94);
+    color: rgb(255 255 255);
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: .15s;
+    border: none;
+    border-radius: .25rem;
+}
+.submit_btn:hover{
+    background-color: rgb(22 163 74);
+    cursor: pointer;
+ 
+
+}
+.error-message {
+    color: #d32f2f; /* Qırmızı ton */
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 4px;
+  }
+  
